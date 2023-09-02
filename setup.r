@@ -20,7 +20,6 @@ pacman::p_load(here)
 here::i_am("setup.R")
 
 # Create directories for output files
-dir.create("paper")
 dir.create("analysis")
 dir.create("analysis/data")
 dir.create("analysis/processed")
@@ -31,3 +30,8 @@ dir.create("analysis/results/intermediate")
 dir.create("analysis/results/tables")
 dir.create("analysis/scripts")
 dir.create("analysis/scripts/programs")
+dir.create("paper")
+dir.create("present")
+dir.create("lit")
+
+
